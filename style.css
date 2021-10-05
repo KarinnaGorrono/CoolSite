@@ -1,0 +1,46 @@
+:root {
+    --primary: #dd0fcc;
+    --secondary: #85ad7d;
+}
+
+body {
+    margin: 0
+}
+
+header {
+    position: relatve;
+    background-color: var(--primary);
+    padding: 10px;
+    
+    justify-content: center;
+    display: flex;
+}
+
+.Text-Center {
+margin-left: 20%;
+    justify-content: center;
+    display: flex;
+}
+
+h2 {
+    border-top: 8px dotted black;
+}
+
+.Text-Shrink {
+width: 50%;
+
+}
+
+.Image-Section {
+    width: 20%;
+    margin-left: 8em;
+    justify-content: center;
+    display: flex;
+}
+
+.Text-Title {
+    margin-left: 10;
+    margin-right: 10%;
+    justify-content: center;
+    display: flex;
+}
